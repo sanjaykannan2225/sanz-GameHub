@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="SANZ GAME HUB - discover legendary PC games and open their official store pages.">
+  <title>SANZ GAME HUB | Enter the Gaming Universe</title>
+  <link rel="icon" href="assets/images/logo.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <!-- NAVBAR -->
+  <header class="navbar" id="navbar">
+    <nav class="nav-inner" aria-label="Main navigation">
+      <a href="#home" class="brand" aria-label="SANZ GAME HUB home"><img src="assets/images/logo.png" alt="SANZ GAME HUB logo"></a>
+      <button class="burger" id="burger" aria-label="Toggle menu" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
+      <ul class="menu" id="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#games">Games</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="grid-bg" aria-hidden="true"></div>
+    <div class="particles" id="particles" aria-hidden="true"></div>
+    <div class="hero-content">
+      <img class="hero-logo" src="assets/images/logo.png" alt="SANZ GAME HUB crowned controller emblem">
+      <h1>ENTER THE GAMING UNIVERSE</h1>
+      <p>Discover legendary games. Explore new worlds. Level up your experience.</p>
+      <a href="#games" class="btn" id="exploreBtn">EXPLORE GAMES</a>
+    </div>
+  </section>
+
+  <!-- GAMES -->
+  <section class="section" id="games">
+    <div class="container">
+      <h2 class="reveal">EXPLORE THE GAMES</h2>
+      <p class="sub reveal">Discover some of the most popular PC gaming experiences.</p>
+      <div class="search reveal">
+        <label for="search" class="sr-only">Search games</label>
+        <input type="search" id="search" placeholder="Search your game..." autocomplete="off">
+      </div>
+      <div class="cards" id="cards">
+        <article class="card reveal" data-title="grand theft auto v" data-genre="action • open world">
+          <div class="card-img"><img src="assets/images/gta5.jpg" alt="Grand Theft Auto V cover art" loading="lazy"><span class="rating-badge">★ 9.5</span></div>
+          <div class="card-body">
+            <h3>Grand Theft Auto V</h3>
+            <p class="genre">Action • Open World</p>
+            <p>Experience an expansive open-world action adventure.</p>
+            <p class="stars" aria-label="Rating 9.5 out of 10">★★★★★ <b>9.5</b></p>
+            <a class="btn btn-sm" href="https://store.steampowered.com/app/271590/Grand_Theft_Auto_V/" target="_blank" rel="noopener noreferrer" aria-label="View Grand Theft Auto V on Steam (opens in new tab)">VIEW GAME →</a>
+          </div>
+        </article>
+        <article class="card reveal" data-title="red dead redemption 2" data-genre="action • western">
+          <div class="card-img"><img src="assets/images/rdr2.jpg" alt="Red Dead Redemption 2 cover art" loading="lazy"><span class="rating-badge">★ 9.7</span></div>
+          <div class="card-body">
+            <h3>Red Dead Redemption 2</h3>
+            <p class="genre">Action • Western</p>
+            <p>An epic tale of life in America's unforgiving heartland.</p>
+            <p class="stars" aria-label="Rating 9.7 out of 10">★★★★★ <b>9.7</b></p>
+            <a class="btn btn-sm" href="https://store.steampowered.com/app/1174180/Red_Dead_Redemption_2/" target="_blank" rel="noopener noreferrer" aria-label="View Red Dead Redemption 2 on Steam (opens in new tab)">VIEW GAME →</a>
+          </div>
+        </article>
+        <article class="card reveal" data-title="forza horizon 5" data-genre="racing • open world">
+          <div class="card-img"><img src="assets/images/forza5.jpg" alt="Forza Horizon 5 cover art" loading="lazy"><span class="rating-badge">★ 9.2</span></div>
+          <div class="card-body">
+            <h3>Forza Horizon 5</h3>
+            <p class="genre">Racing • Open World</p>
+            <p>Race through the vibrant landscapes of Mexico.</p>
+            <p class="stars" aria-label="Rating 9.2 out of 10">★★★★★ <b>9.2</b></p>
+            <a class="btn btn-sm" href="https://store.steampowered.com/app/1551360/Forza_Horizon_5/" target="_blank" rel="noopener noreferrer" aria-label="View Forza Horizon 5 on Steam (opens in new tab)">VIEW GAME →</a>
+          </div>
+        </article>
+        <article class="card reveal" data-title="minecraft" data-genre="sandbox • survival">
+          <div class="card-img"><img src="assets/images/minecraft.jpg" alt="Minecraft cover art" loading="lazy"><span class="rating-badge">★ 9.4</span></div>
+          <div class="card-body">
+            <h3>Minecraft</h3>
+            <p class="genre">Sandbox • Survival</p>
+            <p>Build, explore and survive in endless blocky worlds.</p>
+            <p class="stars" aria-label="Rating 9.4 out of 10">★★★★★ <b>9.4</b></p>
+            <a class="btn btn-sm" href="https://www.minecraft.net/" target="_blank" rel="noopener noreferrer" aria-label="View Minecraft on Official site (opens in new tab)">VIEW GAME →</a>
+          </div>
+        </article>
+        <article class="card reveal" data-title="cyberpunk 2077" data-genre="rpg • sci-fi">
+          <div class="card-img"><img src="assets/images/cyberpunk2077.jpg" alt="Cyberpunk 2077 cover art" loading="lazy"><span class="rating-badge">★ 8.9</span></div>
+          <div class="card-body">
+            <h3>Cyberpunk 2077</h3>
+            <p class="genre">RPG • Sci-Fi</p>
+            <p>Become a cyberpunk mercenary in Night City.</p>
+            <p class="stars" aria-label="Rating 8.9 out of 10">★★★★☆ <b>8.9</b></p>
+            <a class="btn btn-sm" href="https://store.steampowered.com/app/1091500/Cyberpunk_2077/" target="_blank" rel="noopener noreferrer" aria-label="View Cyberpunk 2077 on Steam (opens in new tab)">VIEW GAME →</a>
+          </div>
+        </article>
+        <article class="card reveal" data-title="valorant" data-genre="tactical • shooter">
+          <div class="card-img"><img src="assets/images/valorant.jpg" alt="VALORANT cover art" loading="lazy"><span class="rating-badge">★ 8.6</span></div>
+          <div class="card-body">
+            <h3>VALORANT</h3>
+            <p class="genre">Tactical • Shooter</p>
+            <p>A 5v5 character-based tactical shooter.</p>
+            <p class="stars" aria-label="Rating 8.6 out of 10">★★★★☆ <b>8.6</b></p>
+            <a class="btn btn-sm" href="https://playvalorant.com/" target="_blank" rel="noopener noreferrer" aria-label="View VALORANT on Official site (opens in new tab)">VIEW GAME →</a>
+          </div>
+        </article>
+        <article class="card reveal" data-title="ea sports fc 26" data-genre="sports • football">
+          <div class="card-img"><img src="assets/images/fc26.jpg" alt="EA SPORTS FC 26 cover art" loading="lazy"><span class="rating-badge">★ 8.0</span></div>
+          <div class="card-body">
+            <h3>EA SPORTS FC 26</h3>
+            <p class="genre">Sports • Football</p>
+            <p>The world's game with deeper realism and club play.</p>
+            <p class="stars" aria-label="Rating 8.0 out of 10">★★★★☆ <b>8.0</b></p>
+            <a class="btn btn-sm" href="https://www.ea.com/games/ea-sports-fc/fc-26" target="_blank" rel="noopener noreferrer" aria-label="View EA SPORTS FC 26 on EA (opens in new tab)">VIEW GAME →</a>
+          </div>
+        </article>
+        <article class="card reveal" data-title="hogwarts legacy" data-genre="rpg • fantasy">
+          <div class="card-img"><img src="assets/images/hogwarts.jpg" alt="Hogwarts Legacy cover art" loading="lazy"><span class="rating-badge">★ 9.0</span></div>
+          <div class="card-body">
+            <h3>Hogwarts Legacy</h3>
+            <p class="genre">RPG • Fantasy</p>
+            <p>Live your own adventure in the wizarding world.</p>
+            <p class="stars" aria-label="Rating 9.0 out of 10">★★★★☆ <b>9.0</b></p>
+            <a class="btn btn-sm" href="https://store.steampowered.com/app/990080/Hogwarts_Legacy/" target="_blank" rel="noopener noreferrer" aria-label="View Hogwarts Legacy on Steam (opens in new tab)">VIEW GAME →</a>
+          </div>
+        </article>
+        <article class="card reveal" data-title="assassin's creed shadows" data-genre="action • stealth">
+          <div class="card-img"><img src="assets/images/assassins-creed.jpg" alt="Assassin's Creed Shadows cover art" loading="lazy"><span class="rating-badge">★ 8.8</span></div>
+          <div class="card-body">
+            <h3>Assassin's Creed Shadows</h3>
+            <p class="genre">Action • Stealth</p>
+            <p>Stalk feudal Japan as a shinobi and a samurai.</p>
+            <p class="stars" aria-label="Rating 8.8 out of 10">★★★★☆ <b>8.8</b></p>
+            <a class="btn btn-sm" href="https://www.ubisoft.com/en-us/game/assassins-creed/shadows" target="_blank" rel="noopener noreferrer" aria-label="View Assassin's Creed Shadows on Ubisoft (opens in new tab)">VIEW GAME →</a>
+          </div>
+        </article>
+        <article class="card reveal" data-title="marvel's spider-man 2" data-genre="action • superhero">
+          <div class="card-img"><img src="assets/images/spiderman2.jpg" alt="Marvel's Spider-Man 2 cover art" loading="lazy"><span class="rating-badge">★ 9.3</span></div>
+          <div class="card-body">
+            <h3>Marvel's Spider-Man 2</h3>
+            <p class="genre">Action • Superhero</p>
+            <p>Swing through New York as Peter Parker and Miles Morales.</p>
+            <p class="stars" aria-label="Rating 9.3 out of 10">★★★★★ <b>9.3</b></p>
+            <a class="btn btn-sm" href="https://store.steampowered.com/app/2651280/Marvels_SpiderMan_2/" target="_blank" rel="noopener noreferrer" aria-label="View Marvel's Spider-Man 2 on Steam (opens in new tab)">VIEW GAME →</a>
+          </div>
+        </article>
+      </div>
+      <p class="no-results" id="noResults" hidden>No games found 🎮</p>
+    </div>
+  </section>
+
+  <!-- FEATURED VIDEO -->
+  <section class="section alt" id="video">
+    <div class="container">
+      <h2 class="reveal">FEATURED GAMEPLAY</h2>
+      <div class="media-frame reveal">
+        <video id="trailer" controls preload="metadata" poster="assets/images/cyberpunk2077.png">
+          <source src="assets/video/gaming-trailer.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <div class="placeholder" id="videoPlaceholder" hidden>
+          <p><strong>Add your trailer here</strong></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AUDIO -->
+  <section class="section" id="audio">
+    <div class="container narrow">
+      <h2 class="reveal">🎵 SANZ GAMING SOUNDTRACK</h2>
+      <div class="audio-box reveal">
+        <audio controls preload="none"><source src="assets/audio/gaming-theme.mp3" type="audio/mpeg">Your browser does not support audio.</audio>
+        <p class="hint">Add your track at</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="section alt" aria-label="Gaming stats">
+    <div class="container stats">
+      <div class="stat reveal"><span class="num" data-count="10">0</span><span class="plus">+</span><p>GAMES</p></div>
+      <div class="stat reveal"><span class="num" data-count="5">0</span><span class="plus">+</span><p>GENRES</p></div>
+      <div class="stat reveal"><span class="num">∞</span><p>GAMING EXPERIENCES</p></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="container narrow">
+      <h2 class="reveal">ABOUT</h2>
+      <p class="reveal">SANZ GAME HUB is a game discovery site, not a download host. Every button opens the game's official store or website in a new tab.</p>
+      <h3>How it works</h3>
+      <ol>
+        <li>Browse or search the ten featured games.</li>
+        <li>Press <em>View Game</em> on a card.</li>
+        <li>Buy or play on the official page.</li>
+      </ol>
+      <h3>Where each game lives</h3>
+      <div class="table-wrap"><table>
+        <caption class="sr-only">Featured games with genre and official platform</caption>
+        <thead><tr><th scope="col">Game</th><th scope="col">Genre</th><th scope="col">Official page</th></tr></thead>
+        <tbody><tr><td>Grand Theft Auto V</td><td>Action</td><td>Steam</td></tr><tr><td>Red Dead Redemption 2</td><td>Action</td><td>Steam</td></tr><tr><td>Forza Horizon 5</td><td>Racing</td><td>Steam</td></tr><tr><td>Minecraft</td><td>Sandbox</td><td>Official site</td></tr><tr><td>Cyberpunk 2077</td><td>RPG</td><td>Steam</td></tr><tr><td>VALORANT</td><td>Tactical</td><td>Official site</td></tr><tr><td>EA SPORTS FC 26</td><td>Sports</td><td>EA</td></tr><tr><td>Hogwarts Legacy</td><td>RPG</td><td>Steam</td></tr><tr><td>Assassin's Creed Shadows</td><td>Action</td><td>Ubisoft</td></tr><tr><td>Marvel's Spider-Man 2</td><td>Action</td><td>Steam</td></tr></tbody>
+      </table></div>
+    </div>
+  </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p class="footer-brand">🎮 SANZ GAME HUB</p>
+    <p>Discover • Play • Experience</p>
+    <ul class="footer-nav"><li><a href="#home">Home</a></li><li><a href="#games">Games</a></li><li><a href="#about">About</a></li></ul>
+    <p class="small">© 2026 SANZ GAME HUB<br>Built with HTML • CSS • JavaScript</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
